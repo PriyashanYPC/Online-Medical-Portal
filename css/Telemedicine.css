@@ -1,0 +1,55 @@
+body
+{
+	align-items:center;
+	justify-content:center;
+    line-height: 1.75;
+	background: #d9e5e7;
+    padding: 1%;
+    margin: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}    
+.form
+{
+    background-color:#bedbe0;
+    position: relative;
+    padding: 10px;
+}
+h1
+{
+    text-align: center;
+    Color: #033e16;
+}
+label
+{
+    width: 100px;
+    display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;
+}
+.nom1
+{
+   margin-left: 275px;
+   margin-top: 0px;
+}
+.option1
+{
+    margin-left: 150px;
+}
+.option2
+{
+    margin-top: -25px;
+    margin-left: 350px;
+}
+.p2
+{
+    margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;   
+}

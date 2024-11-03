@@ -1,0 +1,128 @@
+body
+{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('Images/record5.jpg');
+    background-color: #cbc6f8;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}    
+header 
+{
+    background-color: #4f3ecb;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+.fontd
+{
+    color:#4a0107;
+    font-size: 30px;
+    text-align: left;
+}
+.med
+{
+    margin: 0;
+    padding: 0;
+    color:#4ccc90;
+}
+.logo {
+    color: rgb(178, 226, 178);
+    float: left;
+    
+}
+nav ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav .button{
+    background-color: #1ab26b;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+h1
+{
+    text-align: center;
+    Color: #01260d;
+}
+.Decorate
+{
+    text-align:left;
+    color:#4a0107;
+    font-size: 30px;
+}
+.box
+{
+    width: 300px;
+    height: 315px;
+    background:linear-gradient(rgb(78, 45, 123), rgb(21, 27, 93));
+    color: rgb(245, 232, 232);
+    font-size: 15px;
+    text-align: center;
+    margin: 45px;
+}
+.flex-box
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.box1
+{
+    width: 525px;
+    height: 195px;
+    background:linear-gradient(rgb(78, 45, 123), rgb(21, 27, 93));
+    color: rgb(245, 232, 232);;
+    font-size: 15px;
+    text-align: center;
+    margin: 45px;
+    margin-left: 150px;
+    
+}
+.form
+{
+    margin-left: 400px;
+}
+footer {
+    background-color: #4f3ecb;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    bottom: 0; 
+}
+.social{
+    list-style: none;
+    display: flex;
+    transform: translateX(220px);
+}
+.social li{
+    display: inline;
+    margin-left: 29%;
+    margin-right: -28%;
+}
+.social li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: 0.25s ease-in-out;
+}
+.social li img:hover{
+    transform: scale(1.1);
+    opacity: 1.0;
+}

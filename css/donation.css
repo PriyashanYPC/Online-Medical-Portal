@@ -1,0 +1,87 @@
+body
+{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../Images/image1.jpg");
+    background-color: #cbc6f8;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}   
+
+.form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(37, 37, 37, 0.675);
+    box-shadow: 0 0 10px rgba(147, 147, 147, 0.581);
+    width: 700px;
+    padding: 30px;
+    border: 1px solid #4f3ecb;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+h1
+{
+    text-align: center;
+    Color: #033e16;
+}
+.Decorate
+{
+    text-align: left;
+    font-size:20px ;
+}
+label
+{
+    width: 100px;
+    display:inline-block;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;
+    content: center;
+}
+.address
+{
+    width: 100px;
+}
+
+.p1
+{
+    padding-left: 50px;
+    font-size: 15px;
+}
+.p2
+{
+    margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;   
+}
+.b_mail
+{
+   margin-top: -60px;
+   margin-left: 300px;
+}
+.option1
+{
+    margin-left: 150px;
+}
+.option2
+{
+    margin-top: -25px;
+    margin-left: 350px;
+}
+.check
+{
+    font-size: 12px;
+    color:#454343 ;
+    margin-left: 40px;
+}
+
