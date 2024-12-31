@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $shedule = $_POST['shedule'];
    $date = $_POST['date'];
 
-   $sql = "INSERT INTO users (`fName`, `lName`, `Address`, `Mobile`, `email`, `dType`, `Frequency`, `Date`) VALUES ('$firstname',' $lastname','$Address','$Phone','$email','$catogaries','$shedule','$date')";
+  $sql = "INSERT INTO users (`fName`, `lName`, `Address`, `Mobile`, `email`, `dType`, `Frequency`, `Date`) VALUES ('$firstname',' $lastname','$Address','$Phone','$email','$catogaries','$shedule','$date')";
 
    $result = $con->query($sql);
 
